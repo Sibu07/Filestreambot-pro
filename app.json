@@ -23,57 +23,63 @@
           "value": "True"
       },
       "APP_NAME": {
-          "description": "Copy-Paste the app name that you just typed above."
+          "description": "Copy-Paste the app name that you just typed above.",
+          "default": "filetolinkbot_by_sibu"
       },
       "API_ID": {
-          "description": "Get this value from https://my.telegram.org"
+          "description": "Get this value from https://my.telegram.org",
+          "default": "11405252"
       },
       "API_HASH": {
-          "description": "Get this value from https://my.telegram.org"
+          "description": "Get this value from https://my.telegram.org",
+          "default": "b1a1fc3dc52ccc91781f33522255a880"
       },
       "BOT_TOKEN": {
-          "description": "Get this value from @BotFather"
+          "description": "Get this value from @BotFather",
+          "default": "5883653530:AAES56Bp6-D4tchq2zWEicGkYk8Gb6jneIA"
       },
       "BIN_CHANNEL": {
-          "description": "The BIN Channel ID. Read the readme for more info about this var"
+          "description": "The BIN Channel ID. Read the readme for more info about this var",
+          "default": "-1001747244117"
           
       },
       "DATABASE_URL": {
-          "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
+          "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe",
+          "default": "mongodb+srv://sibu2:sibu2@tgdatabasefiletolink.cvfft22.mongodb.net/?retryWrites=true&w=majority"
       },
       "OWNER_ID": {
-          "description": "Your Telegram User ID  like 1234509"
+          "description": "Your Telegram User ID  like 1234509",
+          "default": "11405252"
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
-          "required": false
+          "required": false,
       },
       "UPDATES_CHANNEL": {
           "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.IF DONT WANT KEEP VALUE AS None",
           "value":"None",
-          "required": false
-          
       },
       "OWNER_USERNAME": {
-          "description": "Enter your username without @  example  adarsh."
+          "description": "Enter your username without @  example  adarsh.",
+          "default": "11405252"              
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
-          "required": false
+          "required": false,
       },
       "WORKERS": {
           "description": "No. of workers that is to be assigned. Read the readme for more info about this var",
-          "required": false
+          "required": false,
       },
       "PORT": {
           "description": "Port that you want your webapp to be listened to. Read the readme for more info about this var",
           "value": "8080",
-          "required": false
+          "required": false,
       },
       "NO_PORT": {
           "description": "If you don't want your port to be displayed. Read the readme for more info about this var",
           "value": "False",
-          "required": false
+          "required": false,
       },
       "HAS_SSL": {
           "description": "Default value is True",
@@ -82,7 +88,7 @@
       },
        "MY_PASS": {
           "description": "Leave empty if dont need password else enter Your Password",
-          "value": "None",
+          "default": "sibuna123"
           "required": false
       },
       "BIND_ADRESS": {
@@ -96,7 +102,7 @@
       "name": {
           "description": " Session Name for Bot [ Add adarsh-goel]",
           "value": "File-To-Link",
-          "required": false
+          "required": false,
       }
   },
   "buildpacks": [{
